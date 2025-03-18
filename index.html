@@ -46,6 +46,38 @@
         margin-top: 88px !important;
         margin-bottom: 40px !important;
     }
+
+        .portfolio-box {
+        position: relative;
+        display: block;
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    
+    .portfolio-box .portfolio-box-caption {
+        color: white;
+        opacity: 0;
+        display: block;
+        background: rgba(240, 95, 64, 0.9);
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        transition: all 0.35s;
+    }
+    
+    .portfolio-box:hover .portfolio-box-caption {
+        opacity: 1;
+    }
+    
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
     </style>
 </head>
 
@@ -152,101 +184,101 @@
     </section>
 
     <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="/public/1.jpg" class="portfolio-box">
-                        <img src="/public/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Secado
-                                </div>
-                                <div class="project-name">
-                                    Nuestra madera ronda la década de secado
-                                </div>
+    <div class="container-fluid">
+        <div class="row no-gutter popup-gallery">
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-box">
+                    <img src="/public/1.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Secado
+                            </div>
+                            <div class="project-name">
+                                Nuestra madera ronda la década de secado
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="/public/2.jpg" class="portfolio-box">
-                        <img src="/public/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Nogal Ibérico
-                                </div>
-                                <div class="project-name">
-                                    La madera proviene del norte de Burgos
-                                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-box">
+                    <img src="/public/2.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Nogal Ibérico
+                            </div>
+                            <div class="project-name">
+                                La madera proviene del norte de Burgos
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="/public/3.jpg" class="portfolio-box">
-                        <img src="/public/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Calidad
-                                </div>
-                                <div class="project-name">
-                                    Las inclemencias del tiempo la convierten en una madera densa, ideal para culatas
-                                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-box">
+                    <img src="/public/3.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Calidad
+                            </div>
+                            <div class="project-name">
+                                Las inclemencias del tiempo la convierten en una madera densa, ideal para culatas
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="/public/4.jpg" class="portfolio-box">
-                        <img src="/public/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Variedad
-                                </div>
-                                <div class="project-name">
-                                    Podrás elegir el taco que más te guste
-                                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-box">
+                    <img src="/public/4.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Variedad
+                            </div>
+                            <div class="project-name">
+                                Podrás elegir el taco que más te guste
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="/public/5.jpg" class="portfolio-box">
-                        <img src="/public/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Veteado
-                                </div>
-                                <div class="project-name">
-                                    La madera de nogal es conocida por su belleza en el veteado
-                                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-box">
+                    <img src="/public/5.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Veteado
+                            </div>
+                            <div class="project-name">
+                                La madera de nogal es conocida por su belleza en el veteado
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="/public/6.jpg" class="portfolio-box">
-                        <img src="/public/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Siempre encontrarás algo nuevo
-                                </div>
-                                <div class="project-name">
-                                    Estamos constantemente actualizando nuestra galería
-                                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-box">
+                    <img src="/public/6.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Siempre encontrarás algo nuevo
+                            </div>
+                            <div class="project-name">
+                                Estamos constantemente actualizando nuestra galería
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <section id="caja">
         <div class="container text-center">
